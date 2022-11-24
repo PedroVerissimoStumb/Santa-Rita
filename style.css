@@ -11,120 +11,151 @@ body
     background-color: rgb(255, 255, 255);
 }
 
+@media screen and (max-width: 400px){ /* Para despositivos de 400px */
+
 header
 {
-    background-color: #242F73;
+    background-color: black;
     color: white;
-    height: 135px;
+    height: 170px;
 }
 
 header > h1
 {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 8px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 10px;
 }
 
 header > p
 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 10px;
     text-align: center;
-    padding-top: 2px;
 }
 
 nav
 {
-    margin-left: 10px;
-    margin-top: 10px;
-    min-width: 175px;
-    max-width: 575px;
-    padding: 0px 0px 10px 0px;
+    text-align: center;
 }
 
 nav > a
 {
-    color: white;
-    background-color: #7682ce;
-    padding: 5px;
+    background-color: white;
     border-radius: 10px;
-    text-decoration: none;
+    border: 1px solid black;
+    padding: 2px;
 }
 
-nav > a:hover
-{
-    transition: 0.3s;
-    background-color: rgb(0, 0, 0);
-    color: rgb(4, 0, 255);
-    text-decoration: underline;
-}
+/**/
 
 main
 {
-    background-color: rgba(112, 163, 16, 0.747);
-    color: black;
-    width: 60vw;
-    padding: 20px;
-    margin: auto auto 100px auto;
+    background-color: rgb(177, 164, 115);
+    width: 80%;
+    margin: auto auto 20px auto;
     border-radius: 0px 0px 10px 10px;
-    min-width: 775px;
 }
 
 main > h2
 {
-    background-image: linear-gradient(90deg, rgba(0, 255, 115, 0.808), transparent);
-    padding: 4px 0px;
-    font-size: 1.8em;
+    padding: 5px 10px;
 }
 
 main > p
 {
-    padding: 10px 0px;
+    padding: 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 10px;
+    font-size: 20px;
+    text-align: justify;
+    display: inline-block;
+}
+
+main > div.destaque
+{
+    font-weight: bold;
+    display: inline-block;
+}
+
+main > div.video
+{
+    display: block;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+}
+
+/**/
+
+table > caption
+{
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 5px 5px 0px 0px;
+}
+
+table
+{
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+th
+{
+    background-color: gray;
+    text-align: center;
+    border: 1px solid black;
+}
+
+td
+{
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.bom
+{
+    background-color: rgba(0, 255, 0, 0.555);
+}
+
+.medio
+{
+    background-color: rgba(157, 255, 0, 0.753);
+}
+
+.meiobom
+{
+    background-color: rgba(102, 255, 0, 0.678);
 }
 
 footer
 {
     background-color: black;
     color: white;
-    padding: 10px;
-    position: sticky;
-    bottom: -695vh;
 }
 
-
-
-
-
-table
+footer > p
 {
-    border-collapse: collapse;
-    background-color: white;
-    margin: 20px auto;
-}
-
-thead, tfoot > tr > th
-{
-    background-color: gray;
-}
-
-th, td
-{
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid black;
-    padding: 10px;
     text-align: center;
+    padding: 10px;
 }
 
-.bom
+footer > a
 {
-    background-color: rgba(0, 255, 0, 0.747);
+    color: blue;
+    text-decoration: none;
 }
 
-.medio
+footer > a:hover
 {
-    background-color: rgba(187, 255, 0, 0.651);
+    color: rgb(0, 0, 141);
+    text-decoration: underline;
 }
 
-.meiobom
-{
-    background-color: rgba(123, 255, 0, 0.658);
 }
