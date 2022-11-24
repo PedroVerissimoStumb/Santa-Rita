@@ -95,6 +95,7 @@ footer
     bottom: 0;
     width: 100%;
     text-align: center;
+    padding: 15px 0px;
 }
 
 footer > p > a
