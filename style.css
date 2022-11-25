@@ -12,7 +12,7 @@ body
     background-color: rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 400px){ /* Para despositivos de 400px */
+@media screen and (max-width: 464px){ /* Para despositivos de 400px */
 
 header
 {
@@ -67,7 +67,7 @@ nav > a:hover
 main
 {
     background-color: rgba(238, 220, 59, 0.76);
-    width: 80%;
+    width: 90.2%;
     margin: auto auto 20px auto;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 1.5px 2.5px 8px black;
@@ -99,6 +99,49 @@ main > div.video
     display: block;
     text-align: center;
     padding: 5px 0px 0px 0px;
+}
+
+main > section.fundo1
+{
+    background-color: transparent;
+    background-image: url('midia/img_diretora.jpg');
+    background-position: center center;
+    background-repeat: unset;
+    background-attachment: fixed;
+    background-size: cover;
+    background
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+main > section.fundo2
+{
+    background-color: transparent;
+    background-image: url('midia/img_luiz.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+main > section.fundo3
+{
+    background-color: transparent;
+    background-image: url('midia/varias-pessoas.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px 0px;
 }
 
 /**/
