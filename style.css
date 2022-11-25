@@ -114,6 +114,7 @@ main > section.fundo1
     height: 150px;
     border-radius: 10px;
     margin: 10px 0px;
+    box-shadow: 5px 5px 10px black inset;
 }
 
 main > section.fundo2
@@ -128,6 +129,7 @@ main > section.fundo2
     height: 150px;
     border-radius: 10px;
     margin: 10px 0px;
+    box-shadow: 5px 5px 10px black inset;
 }
 
 main > section.fundo3
@@ -142,6 +144,7 @@ main > section.fundo3
     height: 150px;
     border-radius: 10px;
     margin: 10px 0px;
+    box-shadow: 5px 5px 10px black inset;
 }
 
 /**/
